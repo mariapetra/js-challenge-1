@@ -1,5 +1,4 @@
-var javascriptGreeting = "Hello from JavaScript"
+var awesomeHeader = document.getElementById("myHeader")
 
-console.log(javascriptGreeting)
-console.log("One more time")
-console.log(javascriptGreeting)
+awesomeHeader.style.background = 'red'
+awesomeHeader.style.color = 'green'
